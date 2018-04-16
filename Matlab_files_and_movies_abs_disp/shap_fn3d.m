@@ -140,7 +140,9 @@ where_projx=-1;
 
 % plot3(where_projy+0*scale,imag(spectrum),real(spectrum),'k-'); hold on
 plot3(where_projy+0*scale,imag(spectrum),real(spectrum),'k-'); hold on
+%plot3(where_projy+0*scale,imag(spectrum),abs(spectrum),'k-','LineWidth',2); hold on
 plot3(scale,1+0*imag(spectrum),real(spectrum),'k-'); hold on
+plot3(scale,1+0*imag(spectrum),abs(spectrum),'k-','LineWidth',2); hold on
 plot3(scale,imag(spectrum),real(spectrum),'g-','LineWidth',2); hold on
 [azg bzg]=max(abs(spectrum));
 %text(scale(bzg),imag(spectrum(bzg)),real(spectrum(bzg)),[num2str( 180/pi*angle(spectrum(bzg)) ,'%.1f') 'deg.' add_text]);
@@ -150,10 +152,13 @@ erro_in_deg=180/pi*angle(spectrum(bzg));
 plot3(scale,1*imag(spectrum),-1+0*real(spectrum),'k-'); hold on
 plot3(sw/2*[-1 1],[ 0 0],[ 0 0],'k-')
 plot3(sw/2*[-1 1],1+[ 0 0],[ 0 0],'k-')
+plot3(sw/2*[-1 1],-1+[ 0 0],-1+[ 0 0],'k-')
+plot3(sw/2*[-1 1],1+[ 0 0],1+[ 0 0],'k-')
 plot3(sw/2*[1 1],[ 1 -1],[ 0 0],'k-')
+plot3(-sw/2*[1 1],-[ -1 -1],[ -1 1],'k-')
 axis([ where_projy*[-1 1] -1 1 -1 1])
 
-for loop=1:size(height,2),
+for loop=1:size(height,2)
     what=abs(spectrum);
     tmp=(what(1,1:size(what,2)-1)-height(1,loop)).*(what(1,2:size(what,2)-0)-height(1,loop));
     list_i= find(tmp < 0);
@@ -193,7 +198,8 @@ for loop=1:size(height,2),
         %          text(scale(1,i)*[1],[ imag(spectrum(1,i)) ],[ real(spectrum(1,i)) ],[addtext num2str(360/(2*pi)*av_al,'%.1f') ]);
     end
 end
-plot3([sw/2 sw/2],[0 0 ],[0 1 ],'k','LineWidth',2);
+%plot3([sw/2 sw/2],[0 0 ],[0 1 ],'k','LineWidth',2);
+plot3([sw/2 sw/2],[0 0 ],[0 1 ],'k');
 plot3([sw/2 sw/2 -sw/2],[0 0 0],[1 -1 -1],'k');
 plot3([-sw/2 -sw/2],[-1 1 ],-1+[0 0 ],'k');
 plot3([-sw/2 sw/2 sw/2],[1 1 1],-1+[0 0 2],'k');
