@@ -2,7 +2,7 @@
 
 To the glory of 
 
-![](./eq.pgn)
+![](eq.png)
 
 
 Octave/Matlab program to enjoy a 3D representation of a complex Lorentzian.
