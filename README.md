@@ -9,7 +9,7 @@ the mother of all phased or unphased Lorentzian signals in NMR spectroscopy.
 
 3D representation:
 
-![](ima.png)
+![](ima2.png)
 
 Seen from the side (DISPA reprensentation) it draws a circle!
 
