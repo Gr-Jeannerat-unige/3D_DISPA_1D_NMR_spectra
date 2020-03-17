@@ -11,3 +11,8 @@ t=-100:0.1:100;
 com=1./(1+i*t);
 plot3(t,imag(com),real(com));
 ```
+![](ima.png)
+
+More about Lorentzian in NMR:
+Jeannerat, D. [Analysis of the Phases of Signals in Two-Dimensional NMR. In eMagRes](https://archive-ouverte.unige.ch/unige:93864/ATTACHMENT01); Encyclopedia of Magnetic Resonance; Wiley, 2017.
+
