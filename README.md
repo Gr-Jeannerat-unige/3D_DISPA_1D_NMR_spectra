@@ -5,8 +5,13 @@ To the glory of
 ![](eq.png),
 
 the mother of all phased or unphased Lorentzian signals in NMR spectroscopy.
-Seen from the side (DISPA reprensentation) it draws a circle!
+
+
+3D representation:
+
 ![](ima.png)
+
+Seen from the side (DISPA reprensentation) it draws a circle!
 
 ##Octave/Matlab program to enjoy a 3D representation of a complex Lorentzian.
 ```
