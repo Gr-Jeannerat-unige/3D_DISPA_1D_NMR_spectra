@@ -3,6 +3,7 @@
 To the glory of 
 
 ![](eq.png),
+
 the mother of all phased or unphased Lorentzian signals in NMR spectroscopy.
 Seen from the side (DISPA reprensentation) it draws a circle!
 ![](ima.png)
