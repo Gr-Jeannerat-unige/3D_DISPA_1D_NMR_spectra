@@ -1,7 +1,8 @@
 # 3D_DISPA_1D_NMR_spectra
 
 To the glory of 
-![](eq.pgn)
+
+![](./eq.pgn)
 
 
 Octave/Matlab program to enjoy a 3D representation of a complex Lorentzian.
