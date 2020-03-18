@@ -1,4 +1,4 @@
-# Compley Lorentzian
+# Complex Lorentzian
 
 To the glory of 
 
@@ -27,3 +27,5 @@ t=-100:0.1:100;
 com=1./(1+i*t);
 plot3(t,imag(com),real(com));
 ```
+## 3D printing of 3D represation of 1D spectra
+This sites shows how to generate files for 3D printing, [movies](), etc.
