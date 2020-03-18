@@ -28,4 +28,4 @@ com=1./(1+i*t);
 plot3(t,imag(com),real(com));
 ```
 ## 3D printing of 3D represation of 1D spectra
-This sites shows how to generate files for 3D printing, [movies](https://github.com/Gr-Jeannerat-unige/3D_DISPA_1D_NMR_spectra/blob/master/Matlab_files_and_movies_abs_disp/mov1%20(Converted).mov), etc.
+This sites shows how to generate files for 3D printing, movies as [.mov](https://github.com/Gr-Jeannerat-unige/3D_DISPA_1D_NMR_spectra/blob/master/Matlab_files_and_movies_abs_disp/mov1%20(Converted).mov) or [.avi](https://github.com/Gr-Jeannerat-unige/3D_DISPA_1D_NMR_spectra/blob/master/Matlab_files_and_movies_abs_disp/mov1.avi), etc.
