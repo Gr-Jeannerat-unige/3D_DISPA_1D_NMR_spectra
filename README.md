@@ -12,9 +12,12 @@ the mother of all phased or unphased Lorentzian signals in NMR spectroscopy.
 ![](ima2.png)
 
 Seen from the side (DISPA reprensentation) it draws a circle! 
+
 Not very surprising when remembering that
 
 ![](eqcircl.png)
+
+
 (from Jeannerat, D. [Analysis of the Phases of Signals in Two-Dimensional NMR. In eMagRes](https://archive-ouverte.unige.ch/unige:93864/ATTACHMENT01); Encyclopedia of Magnetic Resonance; Wiley, 2017.)
 
 ## Octave/Matlab program 
