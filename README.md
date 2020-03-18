@@ -1,4 +1,4 @@
-# 3D_DISPA_1D_NMR_spectra
+# Compley Lorentzian
 
 To the glory of 
 
