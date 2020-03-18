@@ -16,8 +16,9 @@ Not very surprising when remembering that
 
 ![](eqcircl.png)
 
-##Octave/Matlab program to enjoy a 3D representation of a complex Lorentzian.
-```
+## Octave/Matlab program 
+Make your owne 3D representation of a complex Lorentzian in Matlab or Octave
+```octave
 t=-100:0.1:100;
 com=1./(1+i*t);
 plot3(t,imag(com),real(com));
