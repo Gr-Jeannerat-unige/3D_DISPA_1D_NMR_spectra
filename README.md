@@ -11,7 +11,10 @@ the mother of all phased or unphased Lorentzian signals in NMR spectroscopy.
 
 ![](ima2.png)
 
-Seen from the side (DISPA reprensentation) it draws a circle!
+Seen from the side (DISPA reprensentation) it draws a circle! 
+Not very surprising when remembering that
+
+![](eqcircl.png)
 
 ##Octave/Matlab program to enjoy a 3D representation of a complex Lorentzian.
 ```
